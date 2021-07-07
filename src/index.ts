@@ -6,6 +6,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 /* Your Code Below */
 let p = document.createElement("p");
-p.innerText = "Hello, Wordl!";
-p.classList.add("lead");
+p.innerText = "Hello! This is an example project!";
+p.classList.add("lead", "text-center");
 document.body.appendChild(p);
